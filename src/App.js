@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-require('dotenv').config();
-const SERVER_URL = process.env.SERVER_URL || 'http://localhost:5000';
+const SERVER_URL = 'https://cookie-clicker-backend.onrender.com';
 
 const App = () => {
   const [score, setScore] = useState(0);
